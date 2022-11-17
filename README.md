@@ -15,13 +15,23 @@ Solução proposta foi a criação de uma aplicação de backend com frontend.
 
 ![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/login.PNG "Screenshoot of the project")
 
+### Tela Principal
+
 ![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/Principal.PNG "Screenshoot of the project")
+
+### Tela de Listagem de Clientes
 
 ![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/List-Cliente.PNG "Screenshoot of the project")
 
+### Tela de Listagem de Edição de Clientes
+
 ![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/Edit-Cliente.PNG "Screenshoot of the project")
 
+### Tela de Listagem de Listagem de Usuários
+
 ![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/List-Usuario.PNG "Screenshoot of the project")
+
+### Tela de Listagem de Edição de Usuários
 
 ![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/Edit-Cliente.PNG "Screenshoot of the project")
 
