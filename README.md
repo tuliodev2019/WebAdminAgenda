@@ -11,12 +11,10 @@ Solução proposta foi a criação de uma aplicação de backend com frontend.
 
 ## Resultado do projeto
 
-![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Documentacao-Swagger.PNG "Screenshoot of the project")
-
-### Notas pessoais e senha não devem estar visíveis no banco de dados.
+### Tela de login
 
   - Notas pessoais e senha Criptografados no banco
-![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/CamposInvisiveisBanco.PNG "Screenshoot of the project")
+![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/login.PNG "Screenshoot of the project")
 
 #Plus
   *    [x] ORM
