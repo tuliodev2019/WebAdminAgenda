@@ -1,0 +1,70 @@
+﻿@model IEnumerable<ClienteViewModel>
+
+@{
+    ViewData["Title"] = "Listagem de Clientes";
+}
+
+<div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-success" asp-controller="Clientes" asp-action="AddOrEdit" role="button">Incluir novo cliente</a>
+    </div>
+
+    <br />
+
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" data-bs-dismiss="alert" aria-label="Close">X</button>
+            @TempData["MensagemSucesso"]
+        </div>
+    }
+
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" data-bs-dismiss="alert" aria-label="Close">X</button>
+            @TempData["MensagemErro"]
+        </div>
+    }
+
+    <h4>Listagem de Clientes</h4>
+    <hr />
+
+    <table id="table-clientes" class="table" style="width:100%">
+        <thead class="table-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Email</th>
+                <th scope="col">Celular</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var Cliente in Model)
+                {
+                    <tr>
+                        <th scope="row">@Cliente.Id</th>
+                        <td>@Cliente.Nome</td>
+                        <td>@Cliente.Email</td>
+                        <td>@Cliente.Celular</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a role="button" asp-action="AddOrEdit" asp-controller="Clientes" asp-route-id="@Cliente.Id" class="btn btn-primary"><i class="fa fa-marker fa-lg"></i>Editar</a>
+                                <a role="button" asp-action="Delete" asp-controller="Clientes" asp-route-id="@Cliente.Id" class="btn btn-danger" onclick="return confirm('Confirma a exclusão desse registro?')"><i class="fa fa-trash-alt fa-lg"></i>Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr class="odd"><td valign="top" colspan="5">Nenhum cliente encontrado</td></tr>
+            }
+        </tbody>
+    </table>
+
+</div>
