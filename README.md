@@ -13,8 +13,17 @@ Solução proposta foi a criação de uma aplicação de backend com frontend.
 
 ### Tela de login
 
-  - Notas pessoais e senha Criptografados no banco
 ![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/login.PNG "Screenshoot of the project")
+
+![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/Principal.PNG "Screenshoot of the project")
+
+![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/List-Cliente.PNG "Screenshoot of the project")
+
+![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/Edit-Cliente.PNG "Screenshoot of the project")
+
+![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/List-Usuario.PNG "Screenshoot of the project")
+
+![screenshoot](https://github.com/tuliodev2019/WebAdminAgenda/blob/master/docs/Edit-Cliente.PNG "Screenshoot of the project")
 
 #Plus
   *    [x] ORM
