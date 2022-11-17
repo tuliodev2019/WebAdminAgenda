@@ -1,6 +1,10 @@
 # Trabalho de conclusão de curso
 Solução proposta foi a criação de uma aplicação de backend com frontend.
 
+## Referencia
+
+  * https://learn.microsoft.com/pt-br/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures
+
 ## Precisa ser cadastrado usuários e clientes para demonstração da aplicação em execução
 
 ## Procedimentos
